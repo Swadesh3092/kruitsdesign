@@ -1,0 +1,9 @@
+.ProfileContainer {
+  height: 45px;
+  width: 45px;
+  border: solid 2px blue;
+  margin-left: 34px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 40px;
+}

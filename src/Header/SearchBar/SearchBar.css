@@ -1,0 +1,9 @@
+.SearchBarContainer {
+  height: 45px;
+  width: 200px;
+  border: solid 2px blue;
+  margin-left: 75px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 40px;
+}

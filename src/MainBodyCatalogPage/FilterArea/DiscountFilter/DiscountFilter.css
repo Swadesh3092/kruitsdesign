@@ -1,0 +1,20 @@
+.DiscountFilter {
+  height: auto;
+  width: 283.37px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.DiscountCheckbox {
+  color: grey;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type="checkbox"] {
+  zoom: 1.5;
+}
+.Discountlabel {
+  margin-left: 20px;
+  height: 61px;
+}

@@ -1,0 +1,50 @@
+.CategoriesContainer {
+  align-content: center;
+  font-weight: 700;
+  margin-right: 50px;
+
+  font-family: Arial;
+  font-size: 16px;
+  width: max-content;
+}
+#CategoriesContainerContent {
+  align-content: center;
+  font-weight: 700;
+
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.button {
+  height: 45px;
+  width: max-content;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  display: flex;
+
+  justify-content: flex-start;
+  background-color: white;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+ul.Dropdown {
+  position: absolute;
+  list-style: none;
+  padding-top: 0px;
+  padding-left: 0px;
+
+  margin-top: 39px;
+  width: 80px;
+  opacity: 1;
+
+  border: 2px solid black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+  background-color: brown;
+}
+
+.list-container {
+  height: 100px;
+  display: block;
+}

@@ -1,0 +1,8 @@
+.LogoContainer {
+  height: 45px;
+  width: 205px;
+  border: solid 2px yellow;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

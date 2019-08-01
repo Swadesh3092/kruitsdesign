@@ -1,0 +1,10 @@
+.SubHeaderContainer {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: rgb(204, 204, 204) 0px 2px 5px;
+  position: absolute;
+}

@@ -1,0 +1,10 @@
+.KidsContainer {
+  height: 38px;
+  width: 15%;
+  border: solid 2px black;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+  align-content: center;
+  line-height: 5px;
+}
