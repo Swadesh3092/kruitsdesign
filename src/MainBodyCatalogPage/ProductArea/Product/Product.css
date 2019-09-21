@@ -1,0 +1,73 @@
+.ProductContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.Product {
+  height: 300px;
+  width: 250px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.Image {
+  height: 238px;
+  width: 248px;
+  border: 2px solid blue;
+}
+.ImageTag {
+  height: 100%;
+  width: 100%;
+}
+.BelowImage {
+  height: 60px;
+  width: 248px;
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: row;
+}
+.Price-Desc {
+  height: 58px;
+  width: 180px;
+  border: 1px solid green;
+}
+.Wishlist {
+  height: 58px;
+  width: 54px;
+  border: 2px solid brown;
+  margin-left: 10px;
+}
+.Desc {
+  height: 28px;
+  width: 178px;
+  border: 2px solid black;
+}
+h3 {
+  font-size: 12px;
+  margin-left: 4px;
+  font-weight: normal;
+}
+.Prices {
+  height: 22px;
+  width: 178px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+}
+.Real-Price {
+  height: 22px;
+  width: 66px;
+  border-right: 2px solid blue;
+}
+.Discount_Price {
+  height: 22px;
+  width: 66px;
+  border-right: 2px solid blue;
+}
+.Percentage {
+  height: 22px;
+  width: 64px;
+  border-right: 2px solid blue;
+}

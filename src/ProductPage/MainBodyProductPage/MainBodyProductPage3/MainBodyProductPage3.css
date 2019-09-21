@@ -1,0 +1,97 @@
+.MainBodyProductPage3Container{
+    width: 100%;
+    height:550px;
+    
+    
+}
+.MainBodyProductPage3ContainerInner{
+    width: 100%;
+    height:550px;
+    
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    flex-direction: row;
+
+}
+.SuggestedProductsHeader{
+    text-align: center;
+   
+    font-size: xx-large;
+    width:100%;
+    height:8%;
+    border-bottom: 1px solid black
+}
+.SuggestedProducts{
+    height:92%;
+    width:100%;
+}
+.SuggestedProductsInner{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    height:96%;
+    width:100%;
+    padding-top:2%
+}
+
+.SuggestedProducts1{
+    height:100%;
+    width:100%;
+    border:1px solid blue;
+}
+.SuggestedProducts2{
+    height:100%;
+    width:100%;
+    border:1px solid blue;
+}
+.SuggestedProducts3{
+    height:100%;
+    width:100%;
+    border:1px solid blue;
+}
+.SuggestedProducts4{
+    height:100%;
+    width:100%;
+    border:1px solid blue;
+}
+
+.SuggestedProductsImageContainer{
+    height:70%;
+    width:95%;
+    border:black solid 1px;
+    margin:2%;
+}
+.SuggestedProductsImage{
+    height:95%;
+    width:100%;
+    border: black 1px solid;
+}
+.SuggestedProductsTitlePriceContainer{
+    height:12%;
+    width:95%;
+    margin:2%;
+    border:yellow solid 1px;
+}
+.SuggestedProductsTitle{
+    text-align:center;
+    width:100%;
+}
+.SuggestedProductsPrice{
+    text-align:center;
+    
+    width:100%;
+}
+.SuggestedProductsBuyNowWishlistButtonsContainer{
+    height: 13%;
+    width:95%;
+    
+    margin-left:2%;
+    margin-right:2%;
+    border:maroon solid 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.SuggestedProductsBuyNowButton,.SuggestedProductsWishlistButton{
+    
+    border:1px solid orange;
+}

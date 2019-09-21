@@ -1,0 +1,13 @@
+.MainBodyProductPageContainerInner{
+    width: 80%;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  margin-left:10%;
+  border:4px solid orange;
+
+}

@@ -1,0 +1,38 @@
+.MainBodyProductPage1Container{
+    width: 100%;
+    height:500px;
+    margin-bottom:10px;
+    
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.subMainBodyProductPage1Container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+   
+}
+
+.SidePictureContainer{
+    border-right: .5px solid black;
+
+}
+
+.MainProductPictureContainer{
+    border-right: .5px solid black;
+
+}
+.ProductBrandPriceandSizeDetails{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-right: .5px solid black;
+}
+.ProductBrandPriceDetails{
+    border-right: .5px solid black;
+}
+
+
+

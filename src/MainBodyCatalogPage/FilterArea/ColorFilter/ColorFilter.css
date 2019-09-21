@@ -1,0 +1,16 @@
+.ColorFilter {
+  height: auto;
+  width: 283.37px;
+  margin-left: 20px;
+}
+
+.Colorboxes-line1 {
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px;
+  grid-gap: 5px;
+}
+
+.ColorBox {
+  height: 20px;
+  width: 30px;
+}
