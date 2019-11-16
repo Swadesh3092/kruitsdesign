@@ -1,16 +1,100 @@
 .ColorFilter {
-  height: auto;
-  width: 283.37px;
-  margin-left: 20px;
+  height: max-content;
+  width: 186px;
+  padding-left:20px;
+  border-bottom: 1px solid lightgray;
+  
+}
+.ColorFilter2{
+ height:max-content;
 }
 
-.Colorboxes-line1 {
-  display: grid;
-  grid-template-columns: 30px 30px 30px 30px;
-  grid-gap: 5px;
+.Colorboxes2-line1 {
+height:max-content;
+  
+  
 }
 
 .ColorBox {
   height: 20px;
   width: 30px;
+}
+.ColorLabel{
+  width: 186px;
+  
+  
+  height:30px;
+}
+.ColorLabelWord{
+  margin-block-start:0;
+  width:186px;
+  font-size:18px;
+  margin-block-end: 0;
+  padding-top:10px;
+}
+.ColorLabel2{
+  width:186px;
+  height:30px;
+ 
+}
+.Colorboxes-line1 {
+  height:max-content;
+}
+.Colorboxes{
+  height:max-content;;
+}
+
+.ColorFilterListInner
+{
+  display: flex;
+}
+
+.ColorFilterListOuter{
+  padding:5px;
+  list-style-type:none;
+  padding-left:0;
+  margin-bottom: 0;
+}
+
+
+
+
+.circular1{
+  
+ 
+  display: inline-block;
+}
+.circularblack{
+  width:13px;
+  height:13px;
+  background:black;
+  margin-right:10px;
+border-radius:10px;
+  display: inline-block;
+}
+.circularblue{
+  width:13px;
+  height:13px;
+  background:blue;
+  margin-right:10px;
+border-radius:10px;
+  display: inline-block;
+}
+
+.circularyellow{
+  width:13px;
+  height:13px;
+  background:yellow;
+  margin-right:10px;
+border-radius:10px;
+  display: inline-block;
+}
+
+.circularorange{
+  width:13px;
+  height:13px;
+  background:orange;
+  margin-right:10px;
+border-radius:10px;
+  display: inline-block;
 }

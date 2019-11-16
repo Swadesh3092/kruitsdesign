@@ -1,9 +1,18 @@
 .WishlistContainer {
-  height: 45px;
+  height: 60px;
   width: 45px;
-  border: solid 2px blue;
-  margin-left: 30px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 40px;
+  margin-left: 37px;
+  
+  
+}
+.WishlistContainer2{
+  height:40px;
+  width:45px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  
+}
+.WishlistImage{
+  max-width: 40px;
+  max-height: 45px;
 }

@@ -1,12 +1,19 @@
 .DiscountFilter {
-  height: auto;
-  width: 283.37px;
+  height: max-content;
+  width: 206px;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+ 
+  
 }
-.DiscountCheckbox {
+.DiscountFilter2{
+  height:100%;
+  margin-bottom: 11px;
+}
+.DiscountCheckbox2 {
   color: grey;
+  height:100%;
+  padding-top:7px;
 }
 li {
   font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +22,89 @@ input[type="checkbox"] {
   zoom: 1.5;
 }
 .Discountlabel {
-  margin-left: 20px;
-  height: 61px;
+  
+  height:20%;
 }
+.Discountlabel2 {
+  
+  padding-left:20px;
+}
+.DiscountCheckboxList{
+  margin-block-start: 0;
+  list-style-type: none;
+  padding-inline-start: 20px;
+  font-size:15px;
+  margin-bottom:11px;
+}
+.DiscountlabelWord{
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-size: 18px;
+  padding-top:8px;
+}
+.DiscountCheckbox {
+  color: grey;
+  height:80%;
+  
+}
+
+.checkbox{
+  position: absolute; 
+  opacity: 0; }
+
+
+  .discount-filter-checkbox1 {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  /* .checkbox + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border:1px solid black;
+    border-radius: 2px;
+  }
+
+  .checkbox:hover + label:before {
+    border:1px solid #ffb3ab;
+  }
+
+  
+  .checkbox:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  .checkbox:checked + label:before {
+    border:1px solid #ffb3ab;
+  }
+
+  .checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 3.5px;
+    top: 7px;
+    background: black;
+    width: 2px;
+    height: 2px;
+    box-shadow: 
+      2px 0 0 black,
+      4px 0 0 black,
+      4px -2px 0 black,
+      4px -4px 0 black,
+      4px -6px 0 black,
+      4px -8px 0 black;
+    transform: rotate(45deg);
+  } */
+  .DiscountFilterListInner{
+    position: relative;
+    margin-bottom: 4px;
+    color:black;
+    font-family: serif;
+
+  }

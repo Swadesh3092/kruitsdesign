@@ -1,0 +1,107 @@
+.BrandFilter {
+    height: max-content;
+    width: 186px;
+    padding-left:20px;
+    border-bottom: 1px solid lightgray;
+    
+  }
+  .BrandFilter2{
+   height:max-content;
+  }
+  
+  .Brandboxes2-line1 {
+  height:max-content;
+    
+    
+  }
+  
+  .BrandBox {
+    height: 20px;
+    width: 30px;
+  }
+  .BrandLabel{
+    width: 186px;
+    
+    
+    height:30px;
+  }
+  .BrandLabelWord{
+    margin-block-start:0;
+    width:186px;
+    font-size:18px;
+    margin-block-end: 0;
+    padding-top:10px;
+  }
+  .BrandLabel2{
+    width:186px;
+    height:30px;
+   
+  }
+  .Brandboxes-line1 {
+    height:max-content;
+  }
+  .Brandboxes{
+    height:max-content;;
+  }
+  
+  .BrandFilterListInner
+  {
+    display: flex;
+  }
+  
+  .BrandFilterListOuter{
+    padding:5px;
+    list-style-type:none;
+    padding-left:0;
+    margin-bottom: 0;
+  }
+  
+  .FilterHeader{
+    Font-size:16px;
+    font-family:serif;
+    color:#282c3f;
+  }
+  .FilterUnorderedList{
+    margin-top:5px;
+  }
+  
+  
+  /* .circular1{
+    
+   
+    display: inline-block;
+  }
+  .circularblack{
+    width:13px;
+    height:13px;
+    background:black;
+    margin-right:10px;
+  border-radius:10px;
+    display: inline-block;
+  }
+  .circularblue{
+    width:13px;
+    height:13px;
+    background:blue;
+    margin-right:10px;
+  border-radius:10px;
+    display: inline-block;
+  }
+  
+  .circularyellow{
+    width:13px;
+    height:13px;
+    background:yellow;
+    margin-right:10px;
+  border-radius:10px;
+    display: inline-block;
+  }
+  
+  .circularorange{
+    width:13px;
+    height:13px;
+    background:orange;
+    margin-right:10px;
+  border-radius:10px;
+    display: inline-block;
+  } */

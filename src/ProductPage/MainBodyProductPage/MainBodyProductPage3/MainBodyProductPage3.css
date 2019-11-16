@@ -1,42 +1,56 @@
 .MainBodyProductPage3Container{
     width: 100%;
-    height:550px;
+    height:500px;
+    margin-top:50px;
+   
     
     
 }
 .MainBodyProductPage3ContainerInner{
     width: 100%;
-    height:550px;
-    
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    height:100%;
     flex-direction: row;
 
 }
 .SuggestedProductsHeader{
-    text-align: center;
+    text-align: -webkit-center;
    
     font-size: xx-large;
     width:100%;
-    height:8%;
-    border-bottom: 1px solid black
+    height:12%;
+    
 }
 .SuggestedProducts{
-    height:92%;
+    height:86%;
     width:100%;
+    margin-top:2%
 }
 .SuggestedProductsInner{
-    display:grid;
-    grid-template-columns: auto auto auto auto;
-    height:96%;
-    width:100%;
-    padding-top:2%
+  grid-template-columns: 245px 245px 245px 245px 245px;
+  height: 94%;
+  width: 100%;
+  padding-top: 2%;
+  justify-content: space-between;
+  display:grid;
 }
 
 .SuggestedProducts1{
-    height:100%;
-    width:100%;
-    border:1px solid blue;
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 230px;
+    margin: 0 5px 40px 10px;
+
+}
+.SuggestedProducts1:hover{
+    -moz-box-shadow:  1px -1px 14px 9px #ece9f3;
+    box-shadow: 1px -1px 14px 9px #ece9f3;
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 230px;
+    margin: 0 5px 40px 10px;
+
 }
 .SuggestedProducts2{
     height:100%;
@@ -95,3 +109,178 @@
     
     border:1px solid orange;
 }
+.Product {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .Image {
+    height: 70%;
+    width: 100%;
+    
+  }
+  .ImageTag {
+    height: 100%;
+    width: 230px;
+  }
+  .BelowImage1 {
+    height: 27%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  }
+  .PriceandDesc {
+    height:100%;
+    width: 100%;
+    
+  }
+  .Wishlist {
+    height: 85%;
+      width: 43%;
+      border-bottom: 2px solid brown;
+      /* padding-top: 2px; */
+      margin-top: 1.5%;
+      /* background: #ea1676; */
+      border: 1px solid #ea1676;
+      border-radius: 5px;
+      margin-left: 6%;
+      box-shadow: 1px 1px 3px grey;
+    
+  }
+  
+  .Wishlist1{
+    height: max-content;
+      width: max-content;
+      margin: auto;
+      margin-top: 4.8px;
+      font-weight:600;
+  
+  }
+  .Desc {
+    height: 26%;
+      width: 100%;
+      /* border-bottom: 2px solid black; */
+      text-align: center;
+      padding: 2% 0 0 0;
+      vertical-align: middle;
+  }
+  h3 {
+    font-size: 16px;
+      margin: 0px 0 0px 0;
+      font-weight: 500;
+      height: 100%;
+      width: 100%;
+      
+  }
+  .Prices {
+    height: 26%;
+      width: 100%;
+      /* border-bottom: 2px solid red; */
+      
+  
+  }
+  .Prices1{
+    height: 100%;
+    width: max-content;
+    /* border-bottom: 2px solid red; */
+    /* display: inline; */
+    margin: auto;
+    color: #716e6e;
+    /* padding-top: 2px; */
+    display: flex;
+    margin-bottom: 2px;
+  
+  }
+  .Real-Price {
+    height: 100%;
+      width: max-content;
+      /* border-right: 2px solid blue; */
+      text-align: center;
+  }
+  .Discount_Price {
+    height: 100%;
+      width: max-content;
+      /* border-right: 2px solid blue; */
+      text-align: center;
+      text-decoration: line-through;
+      padding-left:15px;
+  }
+  .Percentage {
+    height: 100%;
+    width: max-content;
+    text-align: center;
+    padding-left:15px;
+  
+    
+  }
+  .ProductContainer:hover{
+      -moz-box-shadow:  1px -1px 14px 9px #ece9f3;
+      box-shadow: 1px -1px 14px 9px #ece9f3;
+  
+      display: flex;
+      flex-direction: row;
+      height: 345px;
+      width: 230px;
+      margin: 0 10px 40px 10px;
+     
+    
+  }
+  
+  
+  
+  .BuynowandWishlist{
+    height: 41%;
+      width: 100%;
+      /* border: 2px solid red; */
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      
+  }
+      .BuyNow{
+    
+        height: 93%;
+      width: 43%;
+      /* border-bottom: 2px solid brown; */
+      /* padding-top: 2px; */
+      margin-top: 1.18%;
+      background: #ea1676;
+      border-radius: 5px;
+      margin-left: 3.5%;
+      color: white;
+      box-shadow: 1px 1px 3px grey;
+      }
+      .BuyNow1{
+        height: max-content;
+      width: max-content;
+      margin: auto;
+      margin-top: 6px;
+      font-weight:600;
+          
+      }
+
+      .SuggestedProductsHeader1{
+        
+       
+   
+    font-size: xx-large;
+    margin: 0 auto 40px auto;
+    width: 95%;
+    border-bottom: 1px solid #d3d5d3;
+    position: relative;
+    text-align: center;
+   
+      }
+
+      .SuggestedProductsHeader1 h2{
+        display: inline;
+    position: relative;
+    font-size: 35px;
+    bottom: -20px;
+    background-color: #fff;
+    padding: 20px 40px;
+      }

@@ -22,42 +22,44 @@ export default class PriceFilter extends Component {
     return (
       <div className="PriceFilter">
         <div className="Pricelabel">
-          <h2>Price</h2>
+          <div className="Pricelabel2">
+            <h2 className="PricelabelWord FilterHeader">Price</h2>
+          </div>
         </div>
         <div className="PriceCheckbox">
-          <ul>
-            <li>
+          <ul className="PriceFilterList FilterUnorderedList">
+            <li className="PriceFilterListInner">
               <input
-                type="checkbox"
-                name="kaddu"
+                type="checkbox" 
+                className="checkbox"
                 checked={this.state.priceVal === 100 ? true : false}
                 onChange={() => this.props.onclick(this.checkPriceVal(100))}
-              />
-              Above 100
+              /><label htmlFor="price-filter-checkbox1">
+              Above 100</label>
             </li>
-            <li>
+            <li className="PriceFilterListInner">
               <input
-                type="checkbox"
+                type="checkbox" className="checkbox"
                 checked={this.state.priceVal === 120 ? true : false}
                 onChange={() => this.props.onclick(this.checkPriceVal(120))}
-              />
-              checkbox 2
-            </li>
-            <li>
+              /><label htmlFor="price-filter-checkbox2">Checkbox 2</label></li>
+
+
+            <li className="PriceFilterListInner">
               <input
-                type="checkbox"
+                type="checkbox" className="checkbox"
                 checked={this.state.priceVal === 80 ? true : false}
                 onChange={() => this.props.onclick(this.checkPriceVal(80))}
-              />{" "}
-              checkbox 3
+              />
+              <label htmlFor="price-filter-checkbox3">Checkbox 3</label>
             </li>
-            <li>
+            <li className="PriceFilterListInner">
               <input
-                type="checkbox"
+                type="checkbox" className="checkbox" background="yellow"
                 checked={this.state.priceVal === 50 ? true : false}
                 onChange={() => this.props.onclick(this.checkPriceVal(50))}
-              />{" "}
-              checkbox 4
+              />
+              <label htmlFor="price-filter-checkbox4">Checkbox 4</label>
             </li>
           </ul>
         </div>

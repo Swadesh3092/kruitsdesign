@@ -6,97 +6,59 @@ export default class MainBodyProductPage3 extends Component {
         return (
             <div className="MainBodyProductPage3Container">
                 <div className="MainBodyProductPage3ContainerInner">
-                    <div className="SuggestedProductsHeader"><u>PEOPLE <i> ALSO </i> LOVED</u></div>
+                    <div className="SuggestedProductsHeader"><div className="SuggestedProductsHeader1"><h2><u>PEOPLE <i> ALSO </i> LOVED</u></h2></div></div>
                     <div className="SuggestedProducts">
                         <div className="SuggestedProductsInner">
                             <div className="SuggestedProducts1">
-                            <div className="SuggestedProductsImageContainer">
-                                    <div className="SuggestedProductsImage">
+                                <div className="Product">
+                                    <div className="Image">
+                                        <img
+                                            className="ImageTag"
+                                        // src={imageBasePath + this.props.image}
+                                        alt="this is awesome"
+                                        />
+                                    </div>
+                                    <div className="BelowImage1">
+                                        <div className="PriceandDesc">
+                                            <div className="Desc">
+                                                <h3> {this.props.title} </h3>
+                                            </div>
+                                            <div className="Prices">
+                                                <div className="Prices1">
+                                                    <div className="Real-Price">
+                                                        <div className="Real-Price1">Rs 500</div>
+                                                        {/* {this.props.popularity} */}
+                                                    </div>
+                                                    <div className="Discount_Price">
+                                                        <div className="Discount_Price1">Rs 500
+                                                        </div>
+
+                                                    </div>
+                                                    <div className="Percentage" >
+                                                        <div className="Percentage1">
+                                                            50%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="BuynowandWishlist">
+                                                <div className="BuyNow">
+                                                    <div className="BuyNow1">
+                                                        BUY NOW
+                                                    </div>
+                                                </div>
+                                                {/* <div className="Wishlist">
+                                                    <div className="Wishlist1">
+                                                        WISHLIST
+                                                     </div>
+
+                                                </div> */}
+                                            </div>
                                         </div>
-                                </div>
-                                <div className="SuggestedProductsTitlePriceContainer">
-                                    <div className="SuggestedProductsTitle">
-                                        Product Title
-                                     </div> 
-                                     <div className="SuggestedProductsPrice">
-                                         Rs. 1500
-                                     </div>   
-                                </div>
-                                <div className="SuggestedProductsBuyNowWishlistButtonsContainer">
-                                    <div className="SuggestedProductsBuyNowButton" >
-                                        
                                     </div>
-                                    <div className="SuggestedProductsWishlistButton">
-                                        
-                                    </div>
-                                </div>    
+                                </div>
                             </div>
-                            <div className="SuggestedProducts2">
-                            <div className="SuggestedProductsImageContainer">
-                                    <div className="SuggestedProductsImage">
-                                        </div>
-                                </div>
-                                <div className="SuggestedProductsTitlePriceContainer">
-                                    <div className="SuggestedProductsTitle">
-                                        Product Title
-                                     </div> 
-                                     <div className="SuggestedProductsPrice">
-                                         Rs. 1500
-                                     </div>   
-                                </div>
-                                <div className="SuggestedProductsBuyNowWishlistButtonsContainer">
-                                    <div className="SuggestedProductsBuyNowButton" >
-                                        
-                                    </div>
-                                    <div className="SuggestedProductsWishlistButton">
-                                        
-                                    </div>
-                                </div>   
-                            </div>
-                            <div className="SuggestedProducts3">
-                            <div className="SuggestedProductsImageContainer">
-                                    <div className="SuggestedProductsImage">
-                                        </div>
-                                </div>
-                                <div className="SuggestedProductsTitlePriceContainer">
-                                    <div className="SuggestedProductsTitle">
-                                        Product Title
-                                     </div> 
-                                     <div className="SuggestedProductsPrice">
-                                         Rs. 1500
-                                     </div>   
-                                </div>
-                                <div className="SuggestedProductsBuyNowWishlistButtonsContainer">
-                                    <div className="SuggestedProductsBuyNowButton" >
-                                        
-                                    </div>
-                                    <div className="SuggestedProductsWishlistButton">
-                                        
-                                    </div>
-                                </div>   
-                            </div>
-                            <div className="SuggestedProducts4">
-                            <div className="SuggestedProductsImageContainer">
-                                    <div className="SuggestedProductsImage">
-                                        </div>
-                                </div>
-                                <div className="SuggestedProductsTitlePriceContainer">
-                                    <div className="SuggestedProductsTitle">
-                                        Product Title
-                                     </div> 
-                                     <div className="SuggestedProductsPrice">
-                                         Rs. 1500
-                                     </div>   
-                                </div>
-                                <div className="SuggestedProductsBuyNowWishlistButtonsContainer">
-                                    <div className="SuggestedProductsBuyNowButton" >
-                                        
-                                    </div>
-                                    <div className="SuggestedProductsWishlistButton">
-                                        
-                                    </div>
-                                </div>   
-                            </div>
+
                         </div>
 
                     </div>

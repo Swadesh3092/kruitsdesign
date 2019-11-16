@@ -1,3 +1,45 @@
 .FooterBlocks {
-  height: 30px;
+  height: 100px;
+  
+}
+
+.FooterBlocksContainer{
+  display:grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content;
+  margin-left: 293px;
+  padding-top:25px;
+}
+
+.FooterLinks{
+  width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.FooterBlocksContainer button{
+  height:44px;
+  width: max-content;
+}
+
+.FooterButtons{
+  margin-right: 50px;
+  width:max-content;
+}
+
+.FooterButtons a:-webkit-any-link{
+  cursor: pointer;
+    text-decoration: none;
+    color:inherit;
+}
+
+.FooterLinks:hover{
+color:#eded26;
+}
+
+.FooterLinks:focus{
+  outline:none;
 }

@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import Route from 'react-router-dom/Route'
+import Header from "./Header/Header.js"
+import Footer from "./Footer/Footer.js"
 import MainBodyProductPage from "./ProductPage/MainBodyProductPage/MainBodyProductPage.js";
 import MainBodyCatalogPage from "./MainBodyCatalogPage/MainBodyCatalogPage.js";
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+// import Loadmore from "./Loadmore/Loadmore.js";
+import HomePage from "./HomePage/HomePage.js";
+
+import { BrowserRouter as Router } from 'react-router-dom'
 import "./App.css";
+import IndividualPages from "./IndividualPages/IndividualPages.js";
 
 class App extends Component {
   render() {
@@ -11,15 +17,14 @@ class App extends Component {
       <Router>
         <div className="MainContainer">
           <div>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/product">kaddu</Link>
-              </li>
-            </ul>
+            <Header />
             <Route path="/"
+              exact render={
+                () => {
+                  return (<HomePage />)
+                }
+              } />
+            <Route path="/mens-tshirt"
               exact render={
                 () => {
                   return (<MainBodyCatalogPage />)
@@ -31,8 +36,17 @@ class App extends Component {
                   return (<MainBodyProductPage />)
                 }
               } />
+              {/* <Route path="/Loadmore"
+              exact render={
+                () => {
+                  return (<Loadmore />)
+                }
+              } /> */}
+               <IndividualPages/>
+            
 
           </div>
+          <Footer />
         </div>
       </ Router >
     );

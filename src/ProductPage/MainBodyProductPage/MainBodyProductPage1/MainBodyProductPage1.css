@@ -1,16 +1,14 @@
 .MainBodyProductPage1Container{
     width: 100%;
-    height:500px;
-    margin-bottom:10px;
+    height:max-content;
     
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    
 }
 .subMainBodyProductPage1Container{
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 20% 40% 40%;
+    grid-template-columns: 66% 34%;
    
 }
 
@@ -19,20 +17,339 @@
 
 }
 
-.MainProductPictureContainer{
-    border-right: .5px solid black;
 
-}
 .ProductBrandPriceandSizeDetails{
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: auto auto;
-    border-right: .5px solid black;
+    grid-template-rows: 590px 33.33% auto;margin-left:20px;
+   
 }
 .ProductBrandPriceDetails{
     border-right: .5px solid black;
+    height:100%
+}
+
+.ProductSizeDetails{
+    height:100%;
+    border-bottom: .5px solid black;
+
+}
+
+.OtherInfoNeeded{
+    height:100%;
+    
+}
+
+.SidebarBrandNameProductName{
+    
+    height: 75px;
+}
+
+
+.SidebarPrices{
+    
+    height:9%;
+
+}
+
+.SidebarSizes{
+    
+    height:18%;
+
+}
+.SidebarBuyNowWhishlist{
+    
+    height:10%;
+    
+
+}
+
+.SidebarOffers{
+    
+    height:182px;
+}
+
+.SidebarPrices1{
+    grid-template-columns: max-content max-content max-content;
+    display:grid;
+    margin-left:15px;
+    height:100%;
+}
+.SidebarReal-Price{
+    margin-left:0px;
+}
+
+
+.Sizes{
+    width: 100%;
+    margin-top: 7px
 }
 
 
 
+.SidebarBrand{
+    height:50%
+}
+.SidebarBrandWord{
+    font-weight: bold;
+    width: max-content;
+    font-size: 27px;
+    margin-left: 15px;
+}
+.SidebarProductName{
+    height:50%;
+}
+
+.SidebarProductNameWord{
+    width: max-content;
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 15px;
+    color: #3a3939;
+}
+.SidebarBrandNameProductName1{
+    height:100%;
+}
+
+.SidebarReal-Price1{
+    width: max-content;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffb3ab;
+    padding-top:10px;
+}
+.SidebarDiscount_Price{
+    margin-left: 20px;
+}
+.SidebarDiscount_Price1{
+    width: max-content;
+    font-size: 22px;
+    font-weight: 600;
+    color:grey;
+    text-decoration: line-through; 
+    padding-top:10px;
+}
+.SidebarPercentage{
+    margin-left: 20px;
+}
+
+.SidebarPercentage1{
+    width: max-content;
+    font-size: 22px;
+    font-weight: 600;
+    color:black;
+    padding-top:10px;
+   
+}
+
+.SidebarSelectSizeWord{
+    width:max-content;
+    height:max-content;
+    margin-left: 15px;
+    padding-top:7px;
+    padding-bottom: 7px;
+}
+
+.SidebarSelectSizeWord1{
+    
+    width: max-content;
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+}
+.Sizes1{
+    grid-template-columns: max-content max-content max-content max-content;
+    display: grid;
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-left: 15px;
+
+    
+}
+
+.SidebarSize{
+    margin-left:15px;
+
+}
+
+.SidebarSize1{
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15px;
+}
+.SidebarSize1:hover{
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px grey;
+    cursor:pointer;
+}
+.SidebarBuyNowButton1{
+    width: max-content;
+    font-size: x-large;
+    font-weight: 600;
+    color: black;
+    padding-top: 1.5px;
+    padding-left: 40px;
+    text-align: center;
+}
+.SidebarBuyNowButton{
+    
+    width: 213px;
+    height: 97%;
+    margin-left: 15px;
+    border-radius: 10px;
+    background: #ffb3ab;
+    box-shadow: 0px 0px 3px grey;
+   
+}
+
+.SidebarBuyNowBInnerButton{
+    width: 213px;
+    height: 97%;
+    border-radius: 10px;
+    background: #ffb3ab;
+    box-shadow: 0px 0px 3px grey;
+    cursor: pointer;
+    border: none;
+    height: 100%;
+    margin: 0 0 0 0;
+    align-items: center;
+
+}
+.SidebarBuyNowBInnerButton:hover{
+    box-shadow: 0px 0px 10px grey;
+}
+
+.SidebarBuyNowBInnerButton:active{
+ box-shadow: none;
+}
+
+
+a:-webkit-any-link{
+    
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.SidebarSizes1{
+    height:100%;
+    margin-top:10px;
+}
+
+
+
+
+.Offer{    width: max-content;
+    height: max-content;
+    margin-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
+}
+
+.OffersWord{
+    width: max-content;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+.SidebarOffers1{
+    height: max-content;
+    /* border: 2px solid black; */
+    padding-top: 30px;
+    /* margin-top: 30px; */
+    padding-bottom: 15px;
+}
+
+.OfferUnorderedList{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ListItem{
+    font-size: 15px;
+    padding: 4px 0 0 0;
+
+}
+
+.Store{
+    height:70px;
+    width:100%;
+    
+}
+.StoreLogoName{
+    
+    margin-top: 25px;
+    width: 200px;
+    height: 45px;
+    /* border: 1px solid red; */
+    margin-left: 15px;
+    cursor:pointer;
+}
+
+.StoreLogoNameImage{
+    Height:100%;
+    width: 100%;
+}
+
+.MainProductPictureContainerInner{
+    width: 100%;
+    Height: 100%;
+    display: -webkit-flex;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+   
+
+.ProductPageImagesContainer{
+    width: 410px;
+    height: 560px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow:hidden;
+}
+.ProductPageImages{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s;
+}
+.ProductPageImages:hover{
+    width: 100%;
+    height: 100%;
+    transform:scale(1.07);
+}
+
+.ProductNameBottomBorder{
+    height: 5px;
+    width: 91.5%;
+    border-top: 1.5px solid lightgrey;
+    margin-left: 3.8%;
+    margin-right: 0px;
+}
+
+.ProductDetailsEndBorder{
+    height: 5px;
+    width: 96%;
+    border-top: 1.5px solid lightgrey;
+    margin-left: 3.8%;
+    margin-right: 0px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration:none;
+}

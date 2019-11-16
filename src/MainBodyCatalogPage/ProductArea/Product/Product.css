@@ -1,73 +1,173 @@
 .ProductContainer {
   display: flex;
   flex-direction: row;
+  
+  height: 365px;
+  width: 210px;
+  margin: 0 10px 40px 10px;
+  cursor:pointer;
+  
+  
 }
 
 .Product {
-  height: 300px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
   margin: auto;
-  margin-top: 50px;
-  border: 2px solid black;
+  
+  
   display: flex;
   flex-direction: column;
 }
 .Image {
-  height: 238px;
-  width: 248px;
-  border: 2px solid blue;
+  height: 70%;
+  width: 100%;
+  
 }
 .ImageTag {
   height: 100%;
   width: 100%;
 }
-.BelowImage {
-  height: 60px;
-  width: 248px;
-  border: 2px solid orange;
-  display: flex;
-  flex-direction: row;
+.BelowImage1 {
+  height: 27%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
-.Price-Desc {
-  height: 58px;
-  width: 180px;
-  border: 1px solid green;
+.PriceandDesc {
+  height:100%;
+  width: 100%;
+  
 }
 .Wishlist {
-  height: 58px;
-  width: 54px;
-  border: 2px solid brown;
-  margin-left: 10px;
+  height: 85%;
+    width: 43%;
+    border-bottom: 2px solid brown;
+    /* padding-top: 2px; */
+    margin-top: 1.5%;
+    /* background: #ea1676; */
+    border: 1px solid #ea1676;
+    border-radius: 5px;
+    margin-left: 6%;
+    box-shadow: 1px 1px 3px grey;
+  
+}
+
+.Wishlist1{
+  height: max-content;
+    width: max-content;
+    margin: auto;
+    margin-top: 4.8px;
+    font-weight:600;
+
 }
 .Desc {
-  height: 28px;
-  width: 178px;
-  border: 2px solid black;
+  height: 26%;
+    width: 100%;
+    /* border-bottom: 2px solid black; */
+    text-align: center;
+    padding: 2% 0 0 0;
+    vertical-align: middle;
 }
 h3 {
-  font-size: 12px;
-  margin-left: 4px;
-  font-weight: normal;
+  font-size: 16px;
+    margin: 0px 0 0px 0;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    
 }
 .Prices {
-  height: 22px;
-  width: 178px;
-  border: 2px solid red;
+  height: 26%;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+    
+
+}
+.Prices1{
+  height: 100%;
+  width: max-content;
+  /* border-bottom: 2px solid red; */
+  /* display: inline; */
+  margin: auto;
+  color: #716e6e;
+  /* padding-top: 2px; */
   display: flex;
-  flex-direction: row;
+  margin-bottom: 2px;
+
 }
 .Real-Price {
-  height: 22px;
-  width: 66px;
-  border-right: 2px solid blue;
+  height: 100%;
+    width: max-content;
+    /* border-right: 2px solid blue; */
+    text-align: center;
 }
 .Discount_Price {
-  height: 22px;
-  width: 66px;
-  border-right: 2px solid blue;
+  height: 100%;
+    width: max-content;
+    /* border-right: 2px solid blue; */
+    text-align: center;
+    text-decoration: line-through;
+    padding-left:15px;
 }
 .Percentage {
-  height: 22px;
-  width: 64px;
-  border-right: 2px solid blue;
+  height: 100%;
+  width: max-content;
+  text-align: center;
+  padding-left:15px;
+
+  
 }
+.ProductContainer:hover{
+    -moz-box-shadow:  1px -1px 14px 9px #ece9f3;
+    box-shadow: 1px -1px 14px 9px #ece9f3;
+
+    display: flex;
+    flex-direction: row;
+    height: 365px;
+    width: 210px;
+    margin: 0 10px 40px 10px;
+   
+  
+}
+
+
+
+.BuynowandWishlist{
+  height: 41%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top:5px;
+    
+}
+    .BuyNow{
+  
+      height: 93%;
+    width: 43%;
+    /* border-bottom: 2px solid brown; */
+    /* padding-top: 2px; */
+    margin-top: 1.18%;
+    background: #ffb3ab;
+    border-radius: 5px;
+    margin-left:28%;
+    color: black;
+    box-shadow: 1px 1px 3px grey;
+    }
+    .BuyNow1{
+      height: max-content;
+    width: max-content;
+    margin: auto;
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+
+        
+    }
+
+    .BuyNow:active{
+      box-shadow:none;
+    }

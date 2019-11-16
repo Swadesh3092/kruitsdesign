@@ -2,10 +2,15 @@
   align-content: center;
   font-weight: 700;
   margin-right: 50px;
+  
 
   font-family: Arial;
   font-size: 16px;
   width: max-content;
+  
+}
+.CategoriesContainer:hover{
+border-bottom:4px solid yellow;
 }
 #CategoriesContainerContent {
   align-content: center;
@@ -19,32 +24,177 @@
   height: 45px;
   width: max-content;
   margin-top: -5px;
-  margin-bottom: 5px;
+  
   display: flex;
 
   justify-content: flex-start;
-  background-color: white;
+  background-color:#ffb3ab;
   border: 0px;
   outline: none;
   cursor: pointer;
+  color:black;
 }
-ul.Dropdown {
-  position: absolute;
+ul.Dropdown1 {
+ 
   list-style: none;
-  padding-top: 0px;
-  padding-left: 0px;
-
-  margin-top: 39px;
-  width: 80px;
+  margin-top: 0px;
+  width: 100%;
+  height: max-content;
   opacity: 1;
-
-  border: 2px solid black;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-
-  background-color: brown;
+  background-color: white;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
 }
+ul.Dropdown2 {
+ 
+  list-style: none;
+    margin-top: 0px;
+    width: 100%;
+    height: 90%;
+    opacity: 1;
+    background-color: white;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+ul.Dropdown3 {
+ 
+  list-style: none;
+    margin-top: 0px;
+    width: 100%;
+    height: 90%;
+    opacity: 1;
+    background-color: white;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+ul.Dropdown4 {
+ 
+  list-style: none;
+    margin-top: 0px;
+    width: 100%;
+    height: 90%;
+    opacity: 1;
+    background-color: white;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+
+
 
 .list-container {
   height: 100px;
   display: block;
+}
+
+.DropdownMenuFolderInvisible{
+  width: 100%;
+    height: 100%;
+    
+    top: 61px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgba(219, 218, 218, 0.3);
+    /* opacity: 0.1; */
+    z-index: 0;
+}
+
+.DropdownMenuFolderContainer{
+
+  width: 900px;
+    height: max-content;
+    position: absolute;
+    left: 20%;
+    background: white;
+    box-shadow: 0 2px 16px rgba(176, 176, 176, 0.4);
+    z-index:1;
+
+}
+
+.DropdownMenuFolderContainerInner{
+  width: 96%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 2% 4% 2%;
+}
+
+.DropdownBlock1
+{
+  
+  height:max-content;
+  width:100%;
+
+}
+.Dropdown1>li{
+  height: max-content;
+    width: 90%;
+    padding-left: 10%;
+    text-align: left;
+}
+.Dropdown2>li{
+  height: max-content;
+    width: 90%;
+    padding-left: 10%;
+    text-align: left;
+}
+.Dropdown3>li{
+  height: max-content;
+    width: 90%;
+    padding-left: 10%;
+    text-align: left;
+}
+.Dropdown4>li{
+  height: max-content;
+    width: 90%;
+    padding-left: 10%;
+    text-align: left;
+}
+
+.DropdownSubCategoryName{
+  line-height: 23px;
+    width: 100%;
+    font-size: 13px;
+    padding-top: 5px;
+    text-decoration: none;
+    color:#3f3e3e;
+}
+.DropdownCategoryName{
+
+  line-height: 38px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #ff8d81 !important;
+    font-weight: 700;
+    display:block;
+}
+
+.DropdownCategoryList{
+  margin-top:20px;
+
+}
+.Break{
+  width: 100%;
+  height:25px;
+
+}
+
+.DropdownSubCategoryName:hover{
+  font-weight:bold;
+}
+
+.DropdownCategoryList a:-webkit-any-link{
+  color:#ff8d81;
+
+}
+.DropdownSubCategoryList a:-webkit-any-link{
+  color:inherit;
+
 }

@@ -1,8 +1,21 @@
 .LogoContainer {
   height: 45px;
-  width: 205px;
-  border: solid 2px yellow;
-  margin-left: 20px;
+  width: 185px;
+  border: solid 1px black;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left:20px;
+  
+  
+}
+.LogoContainer2 {
+  height: 45px;
+  width: 185px;
+  background: WHITE;
+  
+  
+}
+.Logp{
+  height: 100%;
+  width:100%;
 }

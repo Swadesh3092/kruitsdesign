@@ -1,10 +1,10 @@
-.MainNavContainer {
-  height: 45px;
-  width: 605px;
+.MainNavContainer2 {
+  height: 47px;
+  width: max-content;
 
-  margin-left: 45px;
+  margin-left: 85px;
   margin-top: 13px;
-  margin-bottom: 5px;
+  
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -19,11 +19,20 @@
   font-size: 16px;
   width: max-content;
 }
-
+.NewArrivalsContainer:hover {
+  border-bottom:3px solid yellow;
+}
 .NewArrivalsContentContainer {
   align-content: center;
   font-weight: 700;
 
   font-family: Arial;
   font-size: 16px;
+}
+.MainNavContainer {
+  height: 60px;
+    width: max-content;
+   margin-left :30px;
+   margin-right: 18px;
+    justify-content: flex-start;
 }

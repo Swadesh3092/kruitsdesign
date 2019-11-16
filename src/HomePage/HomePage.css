@@ -1,0 +1,323 @@
+.HomePageSection1{
+    width:100%;
+    height:585px;
+    
+}
+.HomePageBodyContainer{
+    width:100%;
+    height:100%;
+    margin-bottom:60px
+}
+
+.HomePageSection2{
+    width:86%;
+    height:1066px;
+    
+    margin-left:7%;
+
+}
+.HomePageSection2Inner{
+    Height:100%;
+    Width:100%;
+    margin-top:40px;
+    
+}
+
+.HomePageBodyInner{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.HeroBanner{
+    width:100%;
+    height:100%;
+}
+.HeroBannerImage{
+    width:100%;
+    height:100%;
+}
+
+.HomePageSection2HorizontalPartition1{
+    width:100%;
+    Height:18%;
+
+}
+
+.HomePageSection2HorizontalPartition2{
+    width: 100%;
+    Height:80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.HomePageSection2HorizontalPartition2VerticalPartition1{
+    width:100%;
+    Height:100%;
+    
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+
+}
+.HomePageSection2HorizontalPartition2VerticalPartition2{
+    width: 95%;
+    Height: 100%;
+    margin-left: 5%;
+    
+
+}
+
+
+.HomePageSection2Categories1Image{
+    transition: ease-in-out 0.4s;
+}
+.HomePageSection2Categories1Image:hover{
+    transform:scale(1.07);
+}
+.HomePageSection2Categories1{
+   
+   
+    overflow:hidden;
+    
+
+}
+.HomePageSection2Categories1 img{
+    Width: 100%;
+    Height:100%;
+
+}
+
+
+
+.HomePageSection2Categories2Image{
+        transition: ease-in-out 0.4s;
+}
+.HomePageSection2Categories2Image:hover{
+        transform:scale(1.07);
+}
+.HomePageSection2Categories3{
+        overflow:hidden
+}
+.HomePageSection2Categories3Image{
+            transition: ease-in-out 0.4s;
+}
+.HomePageSection2Categories3Image:hover{
+            transform:scale(1.07);
+}
+
+    
+.HomePageSection5Categories1Image{
+    width:100%;
+    height:100%;
+}
+.HomePageSection5Categories2Image{
+    width:100%;
+    height:100%;
+}
+
+
+.HomePageSection5Categories1{
+    overflow:hidden
+}
+.HomePageSection5Categories1Image{
+        transition: ease-in-out 0.4s;
+}
+.HomePageSection5Categories1Image:hover{
+        transform:scale(1.07);
+}
+    
+.HomePageSection5Categories2{
+        overflow:hidden
+}
+.HomePageSection5Categories2Image{
+         transition: ease-in-out 0.4s;
+}
+.HomePageSection5Categories2Image:hover{
+         transform:scale(1.07);
+}
+
+
+.HomePageSection2Categories2{
+    Width: 100%;
+    Height: 89.1%;
+    /* background: orange; */
+    /* padding-top: 41px; */
+    margin-top: 46px;
+    /* margin-bottom: 0; */
+    overflow:hidden;
+    
+
+}
+.HomePageSection2Categories2 img{
+    Width: 100%;
+    Height:100%;
+
+}
+
+.HomePageSection2Categories3{
+    width:100%;
+    height:100%;
+}
+.HomePageSection2Categories3Image{
+    height: 100%;
+    width: 100%;
+}
+.HomePageSection5Categories3{               
+    overflow:hidden;
+    width:100%;
+    height:99%;
+}
+.HomePageSection5Categories3Image{
+    transition: ease-in-out 0.4s;
+    height: 100%;
+    width: 100%;
+}
+.HomePageSection5Categories3Image:hover{
+    transform:scale(1.07);
+}
+
+
+
+
+
+
+.HomePageSection5{
+    width:86%;
+    height:1006px;
+    
+    margin-left:7%;
+
+}
+.HomePageSection5Inner{
+    Height:max-content;
+    Width:100%;
+    margin-top:40px;
+    
+}
+
+
+
+
+
+
+.HomePageSection5HorizontalPartition1{
+    width:100%;
+    Height:18%;
+}
+
+.HomePageSection5HorizontalPartition2{
+    width: 100%;
+    Height:80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.HomePageSection5HorizontalPartition2VerticalPartition1{
+    width:100%;
+    Height:100%;
+    
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+
+}
+.HomePageSection5HorizontalPartition2VerticalPartition2{
+    width: 95%;
+    Height: 100%;
+    margin-left: 5%;
+    
+
+}
+
+
+.HomePageSection5Categories2{
+    Width: 100%;
+    Height: 89.1%;
+    /* background: orange; */
+    margin-top: 38px;
+    margin-bottom: 0;
+
+}
+
+
+
+.CategoriesWord1{
+
+        margin: 0 auto 40px auto;
+        width: 95%;
+        border-bottom: 1px solid #d3d5d3;
+        position: relative;
+        text-align:center;
+    
+}
+
+.CategoriesWord1 h2{
+    display: inline;
+    position: relative;
+    
+    font-size: 40px;
+    bottom: -20px;
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.Categories1Caption{
+    margin-bottom: 10px;
+    width: 95%;
+    display: inline-block;
+    text-align: center;
+    padding-left:30px;
+}
+
+.Categories1Caption p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.HomePageSection3{
+    width: 86%;
+    Height: 350px;
+    border: 2px solid yellow;
+    margin-top: 80px;
+    margin-left: 7%;
+}
+
+.HomePageSection4{
+    width: 86%;
+    Height: max-content;
+    margin-top: 80px;
+    margin-left: 7%;
+    border: 2px solid green;
+
+
+}
+.banner{
+    
+        width: 100%;
+        height: 120px;
+}
+
+.banner img{
+    
+        height: 100%;
+        /* margin-bottom: 0px; */
+        width: 100%;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.HomePageCarouselInner{
+    width:100%;
+    Height:100%;
+}
+.HomePageCarouselInner{
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+   
